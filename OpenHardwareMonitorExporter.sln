@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OpenHardwareMonitorExporter", "OpenHardwareMonitorExporter\OpenHardwareMonitorExporter.fsproj", "{1AF7D6DB-F1A8-4633-85DF-C892AE3575A4}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "OpenHardwareMonitorExporter", "OpenHardwareMonitorExporter\OpenHardwareMonitorExporter.fsproj", "{1AF7D6DB-F1A8-4633-85DF-C892AE3575A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenHardwareMonitorLib", "openhardwaremonitor\OpenHardwareMonitorLib.csproj", "{B0397530-545A-471D-BB74-027AE456DF1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{712A6220-4DFF-4FF8-9F2B-72F1916C4B21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{1AF7D6DB-F1A8-4633-85DF-C892AE3575A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AF7D6DB-F1A8-4633-85DF-C892AE3575A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AF7D6DB-F1A8-4633-85DF-C892AE3575A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0397530-545A-471D-BB74-027AE456DF1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0397530-545A-471D-BB74-027AE456DF1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0397530-545A-471D-BB74-027AE456DF1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0397530-545A-471D-BB74-027AE456DF1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0397530-545A-471D-BB74-027AE456DF1A} = {712A6220-4DFF-4FF8-9F2B-72F1916C4B21}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5B3B962F-2F0A-4A72-ADE9-CDC79A40D61B}
